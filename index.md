@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 author_profile: false
 layout: home
-title:Quantum Noise Prediction Project
+title: Quantum Noise Prediction Project
 excerpt: "Using Monte Carlo simulations and machine learning to predict depolarizing noise in quantum circuits."
 description: "Explore my project to predict noise in 3-qubit quantum circuits using Neural Networks and Monte Carlo methods."
 permalink: /
