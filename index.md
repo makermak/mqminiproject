@@ -2,7 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-author_profile: false
+author_profile: true
 layout: home
 title: Quantum Noise Prediction Project
 excerpt: "Using Monte Carlo simulations and machine learning to predict depolarizing noise in quantum circuits."
