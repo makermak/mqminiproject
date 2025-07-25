@@ -2,14 +2,10 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: single
 author_profile: false
----
-
----
 layout: home
-title: Quantum Noise Prediction Project
-excerpt: "A Monte Carlo and machine learning approach to predict depolarizing noise in quantum circuits."
+title: Math Quantum Mini Project - Quantum Noise Prediction Project
+excerpt: "Using Monte Carlo simulations and machine learning to predict depolarizing noise in quantum circuits."
 description: "Explore my project to predict noise in 3-qubit quantum circuits using Neural Networks and Monte Carlo methods."
 permalink: /
 ---
@@ -18,7 +14,7 @@ permalink: /
 
 Welcome to my Quantum Noise Prediction Project, where I developed methods to estimate depolarizing noise in quantum circuits. This project combines **Neural Networks (NN)** and **Monte Carlo simulations** to predict noise levels in a 3-qubit quantum circuit, a step toward reliable quantum computing and error correction.
 
-## Problem We’re Solving
+## Main Problem
 
 Quantum computers are highly sensitive to noise, such as depolarizing errors from Hadamard and CNOT gates, lowering algorithm performance and distorting probability outputs. The depolarizing errors that I am addressing in this project are caused by decoherence, gate errors, and environmental interactions. Accurately predicting noise levels is important for error mitigation and circuit optimization. My project aims to predict noise levels by:
 
