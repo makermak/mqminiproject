@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Makayo C."
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Hi! Welcome to my webpage!"
+  bio    : "Hi! Welcome to my webpage, this is my Math Quantum Mini Project!"
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
