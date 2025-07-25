@@ -34,15 +34,7 @@ My project roadmap for the mini project looks like this:
 
 This is the quantum circuit that I used:
 Quantum Circuit:
-     ┌───┐          ┌─┐      
-q_0: ┤ H ├──■───────┤M├──────
-     ├───┤┌─┴─┐     └╥┘┌─┐   
-q_1: ┤ H ├┤ X ├──■───╫─┤M├───
-     ├───┤└───┘┌─┴─┐ ║ └╥┘┌─┐
-q_2: ┤ H ├─────┤ X ├─╫──╫─┤M├
-     └───┘     └───┘ ║  ║ └╥┘
-c: 3/════════════════╩══╩══╩═
-                     0  1  2 
+![Image of the quantum circuit](/assets/images/qiskit_circuit.png)
                 
 After doing this, here are my results: 
 ![Plotted data against true noise levels](/assets/images/results_noise.png)
