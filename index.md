@@ -36,7 +36,10 @@ This is the quantum circuit that I used:
 ![Image of the quantum circuit](/assets/images/qiskit_circuit.png)
                 
 After doing this, here are my results: 
+1st run
 ![Plotted data against true noise levels](/assets/images/results_noise.png)
+2nd run
+![Plotted data against true noise levels](/assets/images/montecarlo_nn_chart.png)
 
 ## Current Challenges
 
