@@ -65,6 +65,7 @@ In the future, I plan to continue on this project by:
 - **Expand**: Apply methods to larger circuits (5+ qubits).
 - **Real Quantum Hardware**: Test my programs on real quantum computers like the ones from IBM and IONQ.
 - **Real-Time Prediction**: Develop tools for real-time noise estimation in quantum hardware experiments.
+
 I will also be learning as much as I can about quantum computing and information science to be able to carry out more advance researches.
 
 ---
