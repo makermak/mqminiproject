@@ -44,7 +44,7 @@ With the current progress that I have made with the code, I am facing several pr
 
 ## Future Applications
 
-The applications in quantum computing that my project can have are:
+The applications in quantum computing that my project can have:
 - **Error Mitigation**: Accurately predicting noise to enable better error correction, making quantum algorithms more reliable.
 - **Circuit Optimization**: Identifying noisy gates to inform circuit redesign
 - **Quantum Hardware Benchmarking**: Quantifying noise to help evaluate and improve quantum hardware.
