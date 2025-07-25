@@ -57,7 +57,7 @@ The applications in quantum computing that my project can have:
 - **Quantum Hardware Benchmarking**: Quantifying noise to help evaluate and improve quantum hardware.
 - **Scalable Quantum Algorithms**: Supporting the development of larger and more robust quantum systems with accurate noise prediction
 
-## Future Progress
+## After MathQuantum:
 
 In the future, I plan to continue on this project by:
 - **Developing Better Models**: Explore more advanced neural network architectures to improve noise prediction accuracy.
@@ -66,4 +66,5 @@ In the future, I plan to continue on this project by:
 - **Real Quantum Hardware**: Test my programs on real quantum computers like the ones from IBM and IONQ.
 - **Real-Time Prediction**: Develop tools for real-time noise estimation in quantum hardware experiments.
 
+I will also be learning as much as I can about quantum computing and information science to be able to carry out more advance researches.
 ---
