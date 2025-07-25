@@ -10,7 +10,7 @@ description: "Explore my project to predict noise in 3-qubit quantum circuits us
 permalink: /
 ---
 
-Welcome to my Quantum Noise Prediction Project, where I developed methods to estimate depolarizing noise in quantum circuits! This project uses [**Monte Carlo simulations**](https://en.wikipedia.org/wiki/Monte_Carlo_method){:target="_blank"} and [**Neural Networks (NN)**](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)){:target="_blank"} to predict noise levels in a simulated 3-qubit quantum circuit, a step toward reliable quantum computing and error correction.
+Welcome to my Quantum Noise Prediction Project! I have attempted to develop methods to estimate depolarizing noise in quantum circuits! This project uses [**Monte Carlo simulations**](https://en.wikipedia.org/wiki/Monte_Carlo_method){:target="_blank"} and [**Neural Networks (NN)**](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)){:target="_blank"} to predict noise levels in a simulated 3-qubit quantum circuit, a step toward reliable quantum computing and error correction.
 
 ## Main Problem
 
