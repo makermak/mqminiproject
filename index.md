@@ -33,7 +33,6 @@ My project roadmap for the mini project looks like this:
 5. **Evaluation and Visualization**: Plot results using Matplotlib, comparing Monte Carlo and NN predictions against true noise levels.
 
 This is the quantum circuit that I used:
-Quantum Circuit:
 ![Image of the quantum circuit](/assets/images/qiskit_circuit.png)
                 
 After doing this, here are my results: 
