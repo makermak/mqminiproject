@@ -67,8 +67,8 @@ The applications in quantum computing that my project can have:
 In the future, I plan to continue on this project by:
 - **Developing Better Models**: Explore more advanced neural network architectures to improve noise prediction accuracy.
 - **Better Training**: Use larger datasets (e.g., 1000 samples per noise level).
-- **Expand Scope**: Apply methods to larger circuits (5+ qubits) and diverse noise models (e.x. amplitude damping).
-- **Real Quantum Hardware**: Test my programs on real quantum computers such as the ones from IBM and IONQ.
+- **Expand**: Apply methods to larger circuits (5+ qubits).
+- **Real Quantum Hardware**: Test my programs on real quantum computers like the ones from IBM and IONQ.
 - **Real-Time Prediction**: Develop tools for real-time noise estimation in quantum hardware experiments.
 
 ---
