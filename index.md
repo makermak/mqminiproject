@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 author_profile: false
 layout: home
-title: Math Quantum Mini Project - Quantum Noise Prediction Project
+title: Quantum Noise Prediction Project
 excerpt: "Using Monte Carlo simulations and machine learning to predict depolarizing noise in quantum circuits."
 description: "Explore my project to predict noise in 3-qubit quantum circuits using Neural Networks and Monte Carlo methods."
 permalink: /
@@ -12,7 +12,7 @@ permalink: /
 
 # Quantum Noise Prediction Project
 
-Welcome to my Quantum Noise Prediction Project, where I developed methods to estimate depolarizing noise in quantum circuits. This project combines **Neural Networks (NN)** and **Monte Carlo simulations** to predict noise levels in a 3-qubit quantum circuit, a step toward reliable quantum computing and error correction.
+Welcome to my Quantum Noise Prediction Project, where I developed methods to estimate depolarizing noise in quantum circuits. This project combines **Neural Networks (NN)** and **Monte Carlo simulations** to predict noise levels in a simulated 3-qubit quantum circuit, a step toward reliable quantum computing and error correction.
 
 ## Main Problem
 
@@ -28,7 +28,7 @@ Currently quantum computing companies like IBM and Google are integrating predic
 ## Project Planning
 
 My project roadmap for the mini project looks like this:
-1. **Circuit Design**: Develop a 3-qubit circuit with 3 Hadamard gates and 2 CNOTs, applying depolarizing noise to simulate real-world errors.
+1. **Circuit Design**: Use Qiskit to develop a 3-qubit circuit with 3 Hadamard gates and 2 CNOTs, and apply depolarizing noise.
 2. **Data Generation**: Generate output probability distributions for 10 noise levels(I used 500 samples per level and 10,000 shots per simulation).
 3. **Monte Carlo Method**: Use KL divergence to estimate noise by comparing observed and ideal distributions.
 4. **Neural Network**: Train a 5-layer NN (8→32→16→8→8→1) (I used 200 epochs and learning rate of 0.001).
