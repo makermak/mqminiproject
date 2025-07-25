@@ -37,6 +37,7 @@ This is the quantum circuit that I used:
                 
 After doing this, here are my results: 
 ![Plotted data against true noise levels](/assets/images/results_noise.png)
+
 ![Plotted data against true noise levels](/assets/images/montecarlo_nn_chart.png)
 
 ## Current Challenges
