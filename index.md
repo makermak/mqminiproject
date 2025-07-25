@@ -69,5 +69,6 @@ In the future, I plan to continue on this project by:
 - **Real-Time Prediction**: Develop tools for real-time noise estimation in quantum hardware experiments.
 
 I will also be learning as much as I can about quantum computing and information science to be able to carry out more advance researches.
+I also want to learn more about the models of quantum computing and the physical realisations of quantum computers.
 
 ---
