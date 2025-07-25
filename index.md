@@ -32,6 +32,9 @@ My project roadmap for the mini project looks like this:
 4. **Neural Network**: Train a 5-layer NN (8→32→16→8→8→1) (I used 200 epochs and learning rate of 0.001).
 5. **Evaluation and Visualization**: Plot results using Matplotlib, comparing Monte Carlo and NN predictions against true noise levels.
 
+After doing this, here are my results: 
+![Plotted data against true noise levels](/assets/images/results_noise.png)
+
 ## Current Challenges
 
 With the current progress that I have made with the code, I am facing several problems:
