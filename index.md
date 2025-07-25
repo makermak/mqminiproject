@@ -27,6 +27,8 @@ Currently quantum computing companies like IBM and Google are integrating predic
 
 ## Project Planning
 
+Tools needed: Python, Qiskit, Google Colabs, Pytorch
+
 My project roadmap for the mini project looks like this:
 1. **Circuit Design**: Use Qiskit to develop a 3-qubit circuit with 3 Hadamard gates and 2 CNOTs, and apply depolarizing noise.
 2. **Data Generation**: Generate output probability distributions for 10 noise levels(I used 500 samples per level and 10,000 shots per simulation).
