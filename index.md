@@ -6,15 +6,60 @@ layout: single
 author_profile: false
 ---
 
-Complex numbers are numbers with a *real component* and an *imaginary component*, in the form \\(a+bi\\), where a and b are **real numbers** and i is the **imaginary unit**.
+---
+layout: home
+title: Quantum Noise Prediction Project
+excerpt: "A Monte Carlo and machine learning approach to predict depolarizing noise in quantum circuits."
+description: "Explore my project to predict noise in 3-qubit quantum circuits using Neural Networks and Monte Carlo methods."
+permalink: /
+---
 
-An extended explanation of complex numbers can be found [here](https://en.wikipedia.org/wiki/Complex_number).
+# Quantum Noise Prediction Project
 
-It can be helpful to visualize complex numbers on the complex plane:
-![complex plane](https://upload.wikimedia.org/wikipedia/commons/5/5d/Imaginarynumber2.PNG)
+Welcome to my Quantum Noise Prediction Project, where I developed methods to estimate depolarizing noise in quantum circuits. This project combines **Neural Networks (NN)** and **Monte Carlo simulations** to predict noise levels in a 3-qubit quantum circuit, a step toward reliable quantum computing and error correction.
 
-Complex numbers can also be represented in polar form as below
-[![polar form](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Euler%27s_formula.svg/250px-Euler%27s_formula.svg.png)](https://en.wikipedia.org/wiki/Polar_coordinate_system)
+## Problem We’re Solving
 
-To understand how the polar form is derived, check out this video:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lFT2hwsCMls?si=7syPYfIcBWHrWgGp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Quantum computers are highly sensitive to noise, such as depolarizing errors from Hadamard and CNOT gates, lowering algorithm performance and distorting probability outputs. The depolarizing errors that I am addressing in this project are caused by decoherence, gate errors, and environmental interactions. Accurately predicting noise levels is important for error mitigation and circuit optimization. My project aims to predict noise levels by:
+
+- Using Monte Carlo simulations with KL divergence to estimate noise levels.
+- Using a Neural Network to learn noise patterns from circuit output probabilities.
+
+If this project is able to accurately predict noise levels, it will enable researchers to quantify noise without exhaustive measurements, which can improve quantum algorithm design.
+
+Currently quantum computing companies like IBM and Google are integrating prediction methods to improve gate fidelity, but scaling to larger systems (e.g., 30 qubits) remains challenging due to exponential state space growth, giving the need for more research into more robust models.
+
+## Project Planning
+
+My project roadmap for the mini project looks like this:
+1. **Circuit Design**: Develop a 3-qubit circuit with 3 Hadamard gates and 2 CNOTs, applying depolarizing noise to simulate real-world errors.
+2. **Data Generation**: Generate output probability distributions for 10 noise levels(I used 500 samples per level and 10,000 shots per simulation).
+3. **Monte Carlo Method**: Use KL divergence to estimate noise by comparing observed and ideal distributions.
+4. **Neural Network**: Train a 5-layer NN (8→32→16→8→8→1) (I used 200 epochs and learning rate of 0.001).
+5. **Evaluation and Visualization**: Plot results using Matplotlib, comparing Monte Carlo and NN predictions against true noise levels.
+
+## Current Challenges
+
+With the current progress that I have made with the code, I am facing several problems:
+1) **Monte Carlo**: KL divergence misclassifies noise levels (e.g., 0.01 as 0.03) due to similar probability distributions, even with 10,000 shots.
+2) **Neural Network**: Predictions sometimes cluster (around ~.025), even with 200 epochs and a learning rate of .001.
+3) **Scalability**: Limited to a 3-qubit circuit, but scaling to larger systems(like 30 qubits) will increase the state space exponentially, creatig a larger impact of noise and making probability distributions harder to distinguish. 
+
+## Future Applications
+
+The applications in quantum computing that my project can have are:
+- **Error Mitigation**: Accurately predicting noise to enable better error correction, making quantum algorithms more reliable.
+- **Circuit Optimization**: Identifying noisy gates to inform circuit redesign
+- **Quantum Hardware Benchmarking**: Quantifying noise to help evaluate and improve quantum hardware.
+- **Scalable Quantum Algorithms**: Supporting the development of larger and more robust quantum systems with accurate noise prediction
+
+## Future Progress
+
+In the future, I plan to continue on this project by:
+- **Developing Better Models**: Explore more advanced neural network architectures to improve noise prediction accuracy.
+- **Better Training**: Use larger datasets (e.g., 1000 samples per noise level).
+- **Expand Scope**: Apply methods to larger circuits (5+ qubits) and diverse noise models (e.x. amplitude damping).
+- **Real Quantum Hardware**: Test my programs on real quantum computers such as the ones from IBM and IONQ.
+- **Real-Time Prediction**: Develop tools for real-time noise estimation in quantum hardware experiments.
+
+---
