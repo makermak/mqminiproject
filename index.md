@@ -44,7 +44,7 @@ After doing this, here are my results:
 
 With the current progress that I have made with the code, I am facing several problems:
 1. **Monte Carlo**: KL divergence misclassifies noise levels (e.g., 0.01 as 0.03) due to similar probability distributions, even with 10,000 shots.
-2. **Neural Network**: Predictions sometimes cluster (around ~.025), even with 200 epochs and a learning rate of .001.
+2. **Neural Network**: Predictions cluster around 0.025, even with 200 epochs and a learning rate of .001.
 3. **Scalability**: Limited to a 3-qubit circuit, but scaling to larger systems(like 30 qubits) will increase the state space exponentially, creatig a larger impact of noise and making probability distributions harder to distinguish. 
 
 ## Future Applications
